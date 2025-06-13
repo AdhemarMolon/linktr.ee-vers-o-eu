@@ -1,52 +1,67 @@
+import LogoImg from "./Imagens/Logo.png";
+import ABCDLogo from "./Imagens/ABCDlogo.png";
+import WhatsAppImg from "./Imagens/WhatsAppLogo.png";
+import InstagramImg from "./Imagens/InstagramLogo.png";
+import FacebookImg from "./Imagens/FacebookLogo.png";
+import XLogoImg from "./Imagens/Xlogo.png";
+import YouTubeImg from "./Imagens/YouTubeLogo.png";
 
 const App = () => {
   const links = [
     {
       id: 1,
-      title: "Site Oficial",
+      title: "Site Oficial Biblioteca",
       description: "Acesse o site da Biblioteca PUSP-SC",
       url: "http://biblioteca.puspsc.usp.br/",
-      iconSrc: "/Imagens/Logo.png",
+      iconSrc: LogoImg,
       iconAlt: "Logo Biblioteca",
     },
     {
       id: 2,
-      title: "WhatsApp",
-      description: "Fale conosco pelo WhatsApp",
-      url: "https://wa.me/5516997975308",
-      iconSrc: "/Imagens/WhatsAppLogo.png",
-      iconAlt: "Logo WhatsApp",
+      title: "Site Oficial ABCD",
+      description: "Acesse o site oficial do ABCD",
+      url: "https://www.abcd.usp.br/abcd-informa/",
+      iconSrc: ABCDLogo,
+      iconAlt: "Logo ABCD",
     },
     {
       id: 3,
-      title: "Instagram",
-      description: "Siga a Biblioteca no Instagram",
-      url: "https://www.instagram.com/biblioteca_puspsc",
-      iconSrc: "/Imagens/InstagramLogo.png",
-      iconAlt: "Logo Instagram",
+      title: "WhatsApp",
+      description: "Fale conosco pelo WhatsApp",
+      url: "https://wa.me/5516997975308",
+      iconSrc: WhatsAppImg,
+      iconAlt: "Logo WhatsApp",
     },
     {
       id: 4,
-      title: "Facebook",
-      description: "Curta nossa página no Facebook",
-      url: "https://www.facebook.com/biblioteca.puspsc",
-      iconSrc: "/Imagens/FacebookLogo.png",
-      iconAlt: "Logo Facebook",
+      title: "Instagram",
+      description: "Siga a Biblioteca no Instagram",
+      url: "https://www.instagram.com/biblioteca_puspsc",
+      iconSrc: InstagramImg,
+      iconAlt: "Logo Instagram",
     },
     {
       id: 5,
-      title: "X (Twitter)",
-      description: "Acompanhe no X (Twitter)",
-      url: "https://x.com/BibliotecaPUSP",
-      iconSrc: "/Imagens/Xlogo.png",
-      iconAlt: "Logo X Twitter",
+      title: "Facebook",
+      description: "Curta nossa página no Facebook",
+      url: "https://www.facebook.com/biblioteca.puspsc",
+      iconSrc: FacebookImg,
+      iconAlt: "Logo Facebook",
     },
     {
       id: 6,
+      title: "X (Twitter)",
+      description: "Acompanhe no X (Twitter)",
+      url: "https://x.com/BibliotecaPUSP",
+      iconSrc: XLogoImg,
+      iconAlt: "Logo X Twitter",
+    },
+    {
+      id: 7,
       title: "YouTube",
       description: "Assista nossos vídeos no YouTube",
       url: "https://www.youtube.com/@BibliotecaPUSP-SC",
-      iconSrc: "/Imagens/YouTubeLogo.png",
+      iconSrc: YouTubeImg,
       iconAlt: "Logo YouTube",
     },
   ];
@@ -77,7 +92,7 @@ const App = () => {
               style={{ background: siteBackground, width: "128px", height: "128px" }}
             >
               <img
-                src="/Imagens/Logo.png"
+                src={LogoImg}
                 alt="Logo Biblioteca PUSP-SC"
                 className="w-20 h-20"
               />
