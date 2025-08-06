@@ -27,6 +27,5 @@ Para resolver isso, desenvolvi o BiblioLinks: uma aplicação de código aberto 
 
 ## 🛠️ Tecnologias Utilizadas
 
-Aqui você precisa listar as tecnologias que usou. Vou deixar alguns exemplos, é só adaptar para o seu projeto.
 
 **Frontend:** ` [React, Vite, HTML, CSS, JavaScript e taildwind] `
